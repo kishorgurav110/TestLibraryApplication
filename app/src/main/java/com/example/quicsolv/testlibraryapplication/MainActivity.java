@@ -18,5 +18,6 @@ public class MainActivity extends AppCompatActivity {
     private void bindview() {
         String addition = String.valueOf(CustomClassTestKishor.Add(10, 20));
         Toast.makeText(this, "" + addition, Toast.LENGTH_SHORT).show();
+
     }
 }
