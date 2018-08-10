@@ -6,6 +6,7 @@ public class CustomClassTestKishor {
         return a + b;
     }
 
+    //dkhfjhd
     public static int Minus(int a, int b) {
         return a - b;
     }
