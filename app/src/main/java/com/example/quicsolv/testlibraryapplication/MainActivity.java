@@ -17,7 +17,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void bindview() {
         String addition = String.valueOf(CustomClassTestKishor.Add(10, 20));
-        Toast.makeText(this, "" + addition, Toast.LENGTH_SHORT).show();
+        String minus = String.valueOf(CustomClassTestKishor.Minus(10, 20));
+        String dic = String.valueOf(CustomClassTestKishor.Divisionnn(10, 20));
 
+        Toast.makeText(this, "" + addition, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "" + minus, Toast.LENGTH_SHORT).show();
     }
 }

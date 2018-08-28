@@ -16,4 +16,9 @@ public class CustomClassTestKishor {
     public static int Multiply(int a, int b) {
         return a * b;
     }
+
+    //Multiplication
+    public static int Divisionnn(int a, int b) {
+        return a / b;
+    }
 }
